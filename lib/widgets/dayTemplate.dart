@@ -302,6 +302,12 @@ class DayTemplate extends StatelessWidget {
                           ),
                         ],
                       ),
+                      Container(
+                        height: 20,
+                        alignment: Alignment.center,
+                        child: Text("Sanjay singh budhala - 2k18/CO/318",overflow:TextOverflow.ellipsis,),
+                      
+                      ),
                     ],
                   ),
                 )
@@ -345,6 +351,7 @@ class DayTemplate extends StatelessWidget {
                 height: height * .2,
                 width: MediaQuery.of(context).size.width,
                 padding: EdgeInsets.fromLTRB(10, 0, 10, 0),
+                //////
                 child: Card(
                   elevation: 3,
                   shape: RoundedRectangleBorder(
@@ -409,6 +416,8 @@ class DayTemplate extends StatelessWidget {
                     ),
                   ),
                 ),
+
+                ////////
               ),
             ),
             Positioned(

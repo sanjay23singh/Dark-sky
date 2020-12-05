@@ -9,7 +9,7 @@ class GetLocation {
 
     try{
     Position position =
-        await getCurrentPosition(desiredAccuracy: LocationAccuracy.medium);
+        await Geolocator.getCurrentPosition(desiredAccuracy: LocationAccuracy.medium);
 
         if(position!=null)
         {

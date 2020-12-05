@@ -14,7 +14,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  geolocator: ^6.0.0+3
+  geolocator: ^6.1.5
   http: ^0.12.2
   flutter_spinkit: "^4.1.2"
   time_formatter: ^1.0.0
@@ -74,7 +74,8 @@ flutter:
 
     - assets/gifs/thunder.gif
     - assets/gifs/cloudyNight.gif 
-    - assets/gifs/clearNight.gif    
+    - assets/gifs/clearNight.gif 
+    - assets/gifs/wind.gif    
 
     # - images/a_dot_ham.jpeg
 
